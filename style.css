@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body { font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', 'Dotum', sans-serif; color: #333; }
+a { text-decoration: none; }
+pre { font-family: 'Consolas',monospace; }
+
+#wrap { width: 756px; }
+
+table.list { border-collapse: collapse; margin: 1em 0; }
+table.list th { text-align: center; background-color: #333; color: #fff; font-weight: normal; height: 27px; padding: 0 1em; }
+table.list td { text-align: center; border-bottom: 1px solid #333; padding: 3px; }
+table.list td a { color: #333; }
+table.list .title a:link { color: blue; }
+table.list .title a:visited { color: purple; }
+table.list .title a:hover {  }
+table.list .title a:active { color: red; }
+.page-list table.list .title { text-align: left; min-width: 350px; }
+table.list .author { min-width: 140px; }
+
+table.list a,
+table.list span { padding: 0; }
+
+.page-view table.list { border-top: 1px solid #333; }
+.page-view table.list { width: 100%; }
+.page-view table.list .title { text-align: left; min-width: 350px; }
+.page-view table.list a,
+.page-view table.list span { padding: 0; }
+
+.pagination { text-align: center; }
+
+.warning { color: red; }
